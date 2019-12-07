@@ -8,9 +8,10 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".S2_2"></activity>
+        <activity android:name=".Scope" ></activity>
+        <activity android:name=".GroupMembers" />
+        <activity android:name=".S2_2" />
         <activity android:name=".S2_1" />
         <activity android:name=".S1_2" />
         <activity android:name=".S1_1" />
@@ -20,7 +21,8 @@
         <activity android:name=".MadScientist" />
         <activity android:name=".Governor" />
         <activity android:name=".StorySetting" />
-        <activity android:name=".Year2079">
+        <activity android:name=".Year2079"/>
+        <activity android:name=".StartPage">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
