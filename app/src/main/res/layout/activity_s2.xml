@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".S2"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/s2content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="Instead of simply acting prematurely upon sensing the danger of rising sea levels, you believe that by implementing an algorithm that helps you to study the pattern of rate of increase of sea levels daily, you are better equipped to derive an ideal solution that is beneficial to everyone in the long run. However, should your sensors and hence, your algorithm prove to be faulty, this could further jeopardize the living species in the city, moreover so given the amount of time elapsed from when you first sensed the impending dangers.Do you carry on?"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.3" />
+
+    <Button
+        android:id="@+id/s21"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Carry on with waiting for yourself to come up with a good plan"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.70" />
+
+    <Button
+        android:id="@+id/s22"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:text="Stop the wait and quickly build underwater cities"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.80" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

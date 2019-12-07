@@ -4,6 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Governor">
+    tools:context=".Governor"
+    android:background="@android:color/black">
+
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Governor"
+        android:textColor="@android:color/white"
+        android:textSize="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <TextView
+        android:id="@+id/content"
+        android:paddingLeft="40dp"
+        android:paddingRight="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="You are the governor of Singapore, a major smart city that has consistently been the frontrunner in technological advancements over the years.Many governors before you have faced numerous problems with regards to the city, and have all dealt with them successfully."
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
