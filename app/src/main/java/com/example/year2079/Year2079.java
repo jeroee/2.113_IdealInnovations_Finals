@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.view.animation.AccelerateInterpolator;
 import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
@@ -22,22 +23,28 @@ public class Year2079 extends AppCompatActivity {
         fade = findViewById(R.id.fader);
         Animation fadeIn = new AlphaAnimation(0, 1);
         fadeIn.setInterpolator(new DecelerateInterpolator());
-        fadeIn.setDuration(1500);
+        fadeIn.setDuration(2000);
 
         Animation fadeOut = new AlphaAnimation(1, 0);
         fadeOut.setInterpolator(new AccelerateInterpolator());
         fadeOut.setStartOffset(2000);
-        fadeOut.setDuration(1500);
+        fadeOut.setDuration(2000);
 
         AnimationSet animation = new AnimationSet(false);
         animation.addAnimation(fadeIn);
         animation.addAnimation(fadeOut);
         fade.setAnimation(animation);
 
-        Intent intent = new Intent(Year2079.this, StorySetting.class);
-        startActivity(intent);
+        new Handler().postDelayed(new Runnable() {
+            @Override
+            public void run() {
 
-
+                Intent i=new Intent(Year2079.this,StorySetting.class);
+                startActivity(i);
+            }
+        }, 3800);
+//        Intent story= new Intent(Year2079.this, StorySetting.class);
+//        startActivity(story);
 
 
     }
