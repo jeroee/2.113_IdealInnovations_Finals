@@ -14,7 +14,6 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="You believe you are “smart” enough to come up with the best solution, no matter how long it takes. You carry on taking your time in coming up with a solution.In conclusion,in spite of your failure to come up with an effective solution to mitigate the problem, you are simply arrogant and are putting the lives of those you were supposed to protect in danger. You are definitely not fit for such important responsibilities."
-        android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"

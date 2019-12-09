@@ -24,6 +24,7 @@
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
         android:text="Our Group"
         android:textSize="50dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -38,6 +39,7 @@
         android:layout_height="wrap_content"
         android:justificationMode="inter_word"
         android:text="Members from Left to Right:"
+        android:textColor="@android:color/white"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/imageView2"
@@ -53,6 +55,7 @@
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:textColor="@android:color/white"
         app:layout_constraintHorizontal_bias="0.377"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
         app:layout_constraintTop_toTopOf="parent"
@@ -67,6 +70,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.692"
         app:layout_constraintStart_toStartOf="@+id/imageView2"
+        android:textColor="@android:color/white"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.852" />
 

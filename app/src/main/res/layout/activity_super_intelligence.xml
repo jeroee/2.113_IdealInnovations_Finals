@@ -32,7 +32,6 @@ far , you sense that the living conditions of this futuristic city is far from i
 ."
         android:textColor="@android:color/white"
         android:textSize="15dp"
-        android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

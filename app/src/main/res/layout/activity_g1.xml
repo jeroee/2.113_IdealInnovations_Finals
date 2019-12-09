@@ -4,6 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Gov_context_1_1">
+    tools:context=".G1"
+    android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/white"
+        android:text="Delaying of implementation of the SNL technology drained the country’s food storage and starvation is starting to be seen in people. However, the research on potential problems is yet to fully complete. Doctor Tan reported that the team is able to find a way to mass produce crops using SNL. This significantly reduces the cost of producing SNL. However Doctor Tan proposed that the team needs another 5 years to test on the SNL produced food."
+        android:textSize="15dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintVertical_bias="0.45"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/g1.1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="approve the 5 year test proposal and grant research funding "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <Button
+        android:id="@+id/g1.2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="implement the technology with immediate effect"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,23 +4,30 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.method.MovementMethod;
+import android.text.method.ScrollingMovementMethod;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class StorySetting extends AppCompatActivity {
 
     Button Governor;
     Button MadScientist;
     Button SI;
+    TextView content;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_story_setting);
 
+        content = findViewById(R.id.storycontent);
         Governor = findViewById(R.id.GovernorButton);
         MadScientist = findViewById(R.id.MadScientistButton);
         SI= findViewById(R.id.SuperintelligenceButton);
+
+        content.setMovementMethod(new ScrollingMovementMethod());
 
         Governor.setOnClickListener(new View.OnClickListener() {
             @Override

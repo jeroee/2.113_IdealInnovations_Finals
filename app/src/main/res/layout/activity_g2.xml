@@ -4,6 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Gov_context_1_2">
+    tools:context=".G2"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Although you feel you have faced the problem, several bigger problems begin to unravel...   In a bid to swiftly eradicate this problem, you decide to give the green-light to the delivery of these crops to the households with immediate effect. The crop yield increase as a result of the new SNL technology. The problem seems to be gone. However, due to the high maintenance cost of the machine that produces SNL light, the cost of maintaining the device slowly transferred to the consumers. The price of food raised to a point that only the rich could afford the food and the poor start starving."
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.45" />
+
+    <Button
+        android:id="@+id/g2.1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Provide subsidies to the SNL technology but will empty the government budget"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+    <Button
+        android:id="@+id/g2.2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Do nothing about it, let the market settle on its own"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.90" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -30,7 +30,6 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="@string/governor_context"
-        android:textAlignment="center"
         android:textColor="@android:color/white"
         android:scrollbars="vertical"
         android:textSize="15dp"
@@ -40,6 +39,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.498" />
+
+    <Button
+        android:id="@+id/g1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Research on the technology and tackle the potential problems before launching "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.83" />
+
+    <Button
+        android:id="@+id/g2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Implement the technology immediately and ignore the ethical issues."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.93" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
