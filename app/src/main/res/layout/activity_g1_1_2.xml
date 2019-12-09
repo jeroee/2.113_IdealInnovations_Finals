@@ -4,23 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".S2_2"
+    tools:context=".G1_1_2"
     android:background="@android:color/black">
 
     <TextView
-        android:id="@+id/s1content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="You decide that too much has been wasted, and now, it is about time to finally do something and you decide to build an underwater city together with your fellow androids to minimize the casualty rate among the living species.\n\nIn conclusion,while you have done the right thing in terms of swiftly carrying out “Plan B” to save the living species, a significant damage has already been done in terms of the lives already lost due to time wasted thinking of a good “Plan A”."
+        android:text="With the help of the SNL technology, you are able to resolve the starvation problem in the country. However, more problems came along. More and more people start developing cancer from eating the SNL produced crops as these crops contains carcinogen from prolonged exposure to SNL.You can’t stop producing food using SNL as this will bring back the starvation problem. If you continue to produce food with SNL more people will develop cancer. \n\nConclusion:\nIt is risky if we build a new technology without thinking  through the problems it could bring about thoroughly.  The areas that we have yet to explore could result in a hazardous situation. "
         android:textColor="@android:color/white"
         android:textSize="15dp"
+        app:layout_constraintVertical_bias="0.8"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
-
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

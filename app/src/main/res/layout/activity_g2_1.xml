@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".G2_1"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="With the subsidies, the price of food is controlled within an affordable price. Soon after regulating the price, another breaking news came out. More and more people start developing cancer.After thorough investigation it was found that the source of cancer is from eating the SNL produced food. The high intensity of the SNL produces too much radiation for the crops making them carcinogenic.
+Slowly more and more people start dying from cancer. However, If you choose to stop producing SNL produced food people will die due to starvation. You are in a dead end now. Checkmate….
+\n\nConclusion:\nBuilding first and think later may cause a problem after another problem. We can choose to respond to the problems only when they appear. However, it may be beyond our capability to tackle one problem after another. "
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

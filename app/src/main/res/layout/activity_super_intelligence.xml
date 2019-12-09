@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:text="Superintelligence"
         android:textColor="@android:color/white"
-        android:textSize="45dp"
+        android:textSize="30dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +29,7 @@
         android:layout_height="wrap_content"
         android:text="You are one of the many humanoid androids living in the ideal city of Singapore.Developed using AI,you are smart enough to be able to sense dangers that would be detrimental to the city.You are bestowed with many functionalities, as well as being given equal rights as governors in terms of decision-making during tough times.As far as the city has been ideal thus
 far , you sense that the living conditions of this futuristic city is far from ideal, with rising sea levels impending. Given your decision-making rights, what would you do?
-."
+"
         android:textColor="@android:color/white"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"

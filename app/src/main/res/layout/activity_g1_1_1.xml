@@ -4,23 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".S2_2"
+    tools:context=".G1_1_1"
     android:background="@android:color/black">
 
     <TextView
-        android:id="@+id/s1content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="You decide that too much has been wasted, and now, it is about time to finally do something and you decide to build an underwater city together with your fellow androids to minimize the casualty rate among the living species.\n\nIn conclusion,while you have done the right thing in terms of swiftly carrying out “Plan B” to save the living species, a significant damage has already been done in terms of the lives already lost due to time wasted thinking of a good “Plan A”."
+        android:text="The wait is worth,several problems regarding food safety had been detected and tackled. The food produced is tested to be safe to consume. The country start mass producing food with the improved agriculture technology using SNL. The food production of Singapore had increased and the starvation problem is soon resolved. \n\nConclusion: \n
+The reason why we achieve this desirable outcome is because we knew the importance of thinking through the potential problems that the SNL technology could bring. Then we take appropriate prevention to these potential problems. This will allow us to make use of the new technology safely.
+However, we still have to pay some price sometimes. In this context, a lot of people died in the process of waiting for the safe implementation of the technology
+"
         android:textColor="@android:color/white"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        app:layout_constraintVertical_bias="0.8"/>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
