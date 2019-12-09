@@ -44,4 +44,10 @@ public class StorySetting extends AppCompatActivity {
             }
         });
     }
+
+    @Override
+    public void onBackPressed() {
+        Intent start = new Intent(StorySetting.this, StartPage.class);
+        startActivity(start);
+    }
 }

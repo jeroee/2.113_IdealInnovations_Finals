@@ -41,7 +41,7 @@ public class StartPage extends AppCompatActivity {
         us.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent us = new Intent(StartPage.this, GroupMembers.class);
+                Intent us = new Intent(StartPage.this, Members.class);
                 startActivity(us);
             }
         });
