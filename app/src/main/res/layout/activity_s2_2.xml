@@ -11,17 +11,17 @@
         android:id="@+id/s1content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:text="You decide that too much has been wasted, and now, it is about time to finally do something and you decide to build an underwater city together with your fellow androids to minimize the casualty rate among the living species.In conclusion,while you have done the right thing in terms of swiftly carrying out “Plan B” to save the living species, a significant damage has already been done in terms of the lives already lost due to time wasted thinking of a good “Plan A”."
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="20dp"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4" />
+        app:layout_constraintVertical_bias="0.35" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

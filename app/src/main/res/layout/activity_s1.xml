@@ -10,24 +10,24 @@
     <TextView
         android:id="@+id/s1content"
         android:layout_width="wrap_content"
-        android:layout_height="500dp"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
+        android:layout_height="300dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:text="The idea of an underwater city would be arousing, with citizens able to go on with their daily lives, just in a different setting. This idea would prove to mitigate the problem of rising sea levels, in fact, if sea levels continue to rise, this could prove beneficial as higher-rise buildings can be constructed underwater.This would surely be ideal to many. However, one problem with this idea of building a city underwater would be that sunlight would be limited,plants now would not be able to thrive due to the scarce sunlight they receive. Animals too,that depend on these plants for survival would die.This would be a “domino-effect” as humans depend on animals for food, and hence humans too, would eventually suffer from this. However, with scientists are in the midst of developing artificial sunlight that can be used in these underwater cities to supplement plants, governors need your help,due to your “smartness” to gauge if it is practical to do so. What would you do?"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2" />
+        app:layout_constraintVertical_bias="0.4" />
 
     <Button
         android:id="@+id/s11"
-        android:layout_width="380dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="Go ahead with the idea"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -35,11 +35,11 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85" />
+        app:layout_constraintVertical_bias="0.87" />
 
     <Button
         android:id="@+id/s12"
-        android:layout_width="380dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="Disapprove the idea and try to find alternative solutions"
         app:layout_constraintBottom_toBottomOf="parent"

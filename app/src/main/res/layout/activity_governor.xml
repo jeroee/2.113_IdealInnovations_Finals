@@ -20,25 +20,26 @@
         app:layout_constraintStart_toStartOf="parent"
 
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintVertical_bias="0.15"
         app:layout_constraintHorizontal_bias="0.5"/>
 
     <TextView
-        android:id="@+id/content"
-        android:paddingLeft="40dp"
-        android:paddingRight="40dp"
+        android:id="@+id/govcontent"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="300dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:text="@string/governor_context"
-        android:textColor="@android:color/white"
-        android:textSize="20dp"
         android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:scrollbars="vertical"
+        android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.4"
-        app:layout_constraintHorizontal_bias="0.5"/>
+        app:layout_constraintVertical_bias="0.498" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

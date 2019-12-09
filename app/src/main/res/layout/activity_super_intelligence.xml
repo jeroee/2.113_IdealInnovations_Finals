@@ -23,15 +23,15 @@
 
     <TextView
         android:id="@+id/content"
-        android:paddingLeft="30dp"
-        android:paddingRight="30dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="You are one of the many humanoid androids living in the ideal city of Singapore.Developed using AI,you are smart enough to be able to sense dangers that would be detrimental to the city.You are bestowed with many functionalities, as well as being given equal rights as governors in terms of decision-making during tough times.As far as the city has been ideal thus
 far , you sense that the living conditions of this futuristic city is far from ideal, with rising sea levels impending. Given your decision-making rights, what would you do?
 ."
         android:textColor="@android:color/white"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:textAlignment="center"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -42,7 +42,7 @@ far , you sense that the living conditions of this futuristic city is far from i
 
     <Button
         android:id="@+id/s1"
-        android:layout_width="380dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="Rally your fellow androids to swiftly build an underwater city"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -50,11 +50,11 @@ far , you sense that the living conditions of this futuristic city is far from i
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintVertical_bias="0.80" />
 
     <Button
         android:id="@+id/s2"
-        android:layout_width="380dp"
+        android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="Give yourself time to carefully judge and predict the rate of increase of water levels so as to come up with an ideal solution "
         app:layout_constraintBottom_toBottomOf="parent"
