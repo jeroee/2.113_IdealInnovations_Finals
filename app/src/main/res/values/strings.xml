@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Year 2079</string>
+    <string name="governor_context"><![CDATA[Context: You are the governor of Singapore, a major smart city that has consistently been the frontrunner in technological advancements over the years.Many governors before you have faced numerous problems with regards to the city, and have all dealt with them successfully. There is a gratuitous change in global climate pattern in recent years and the change is predicted to be irreversible. As a result, the yield of agriculture all over the world had dropped drastically. All the countries had decreased their export of food to Singapore to ensure the supply of food within their own countries. As the majority of food in Singapore are imported, we are facing the biggest ever problem right now.There will be a severe food shortage. The head of the National Research and Development (NR&D), Doctor Joey Richie L Tan had suggested that the concept of ‘Super nature light (SNL)’ could be incorporated in the agriculture. SNL is a newly discovered light with intensity and energy 10 times higher than the natural light we are receiving. Shining SNL on plants will provide enough nutrition for the plants and increase the crop yield. Despite being an urgent matter to tackle, there are potential problems with the use of super nature light.]]></string>
+
+
 </resources>

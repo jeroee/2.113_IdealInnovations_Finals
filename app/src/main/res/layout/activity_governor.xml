@@ -29,7 +29,7 @@
         android:paddingRight="40dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="You are the governor of Singapore, a major smart city that has consistently been the frontrunner in technological advancements over the years.Many governors before you have faced numerous problems with regards to the city, and have all dealt with them successfully."
+        android:text="@string/governor_context"
         android:textColor="@android:color/white"
         android:textSize="20dp"
         android:textAlignment="center"
