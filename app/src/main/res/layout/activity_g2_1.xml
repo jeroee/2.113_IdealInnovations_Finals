@@ -9,19 +9,19 @@
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
+        android:layout_width="392dp"
+        android:layout_height="382dp"
+        android:layout_marginTop="150dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="With the subsidies, the price of food was controlled within an affordable price. Soon after regulating the price, another breaking news came out. More and more people started developing cancer.After thorough investigation it was found that the source of cancer was from eating the SNL-produced food. The high intensity of the SNL produced too much radiation, and the crops exposed to this radiation made them carcinogenic. Slowly more and more people started dying from cancer. However, If you had chosen to stop producing SNL produced food people would have died due to starvation. You were in a dead end now. Checkmate….
+        android:scrollbars="vertical"
+        android:text="With the subsidies, the price of food was controlled within an affordable price. Soon after regulating the price, another breaking news came out. More and more people started developing cancer.After thorough investigation it was found that the source of cancer was from eating the SNL-produced food. The high intensity of the SNL produced too much radiation, and the crops exposed to this radiation made them carcinogenic. Slowly more and more people started dying from cancer. However, If you had chosen to stop producing SNL produced food people would have died due to starvation. You were in a dead end now. Checkmate…. \n\nConclusion:\nBuilding first and thinking later had caused a problem after another problem. You could have chosen to respond to the problems only when they appeared. However, it was beyond your capability to resolve all the problems simultaneously.
 "
         android:textSize="15dp"
-        android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="150dp" />
+        app:layout_constraintTop_toTopOf="parent" />
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="200dp"
