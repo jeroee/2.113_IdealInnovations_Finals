@@ -26,6 +26,7 @@ Unfortunately, we still had to pay some price. In this context, a lot of people 
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
+        android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="200dp"
         android:alpha="0.5"
@@ -38,5 +39,17 @@ Unfortunately, we still had to pay some price. In this context, a lot of people 
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.07"
         app:srcCompat="@drawable/food" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Start Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
