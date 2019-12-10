@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/s1content"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="You believe you are “smart” enough to come up with the best solution, no matter how long it takes. You carry on taking your time in coming up with a solution.\n\nIn conclusion,in spite of your failure to come up with an effective solution to mitigate the problem, you are simply arrogant and are putting the lives of those you were supposed to protect in danger. You are definitely not fit for such important responsibilities."
@@ -21,6 +21,6 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        android:layout_marginTop="300dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

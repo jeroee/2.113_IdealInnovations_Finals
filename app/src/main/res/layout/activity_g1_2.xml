@@ -8,20 +8,21 @@
     android:background="@android:color/black">
 
     <TextView
+        android:id="@+id/g1_2content"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="Thanks to the high productivity of SNL technology, food are readily produced to the people. However, more and more people start developing cancer.After thorough investigation it was found that the source of cancer is from eating the SNL produced food. The high intensity of the SNL produces too much radiation for the crops making them carcinogenic.
-Slowly more and more people start dying from cancer. However, If you choose to stop producing SNL produced food people will die due to starvation. You are in a dead end now. Checkmate…. \n\nConclusion:\nEven though new SNL technology may seem to be  helpful to us, there are potential problems associated with it. If we do not give a thought to the potential problems that the SNL technology might bring to us, it could lead to undesirable consequences.
-"
+        android:text="Thanks to the high productivity of SNL technology, food was readily produced and distributed to the people. However, more and more people started developing cancer.After thorough investigation it was found that the source of cancer was from eating the SNL-produced food. The high intensity of the SNL produced too much radiation for the crops, making them carcinogenic.
+Slowly more and more people started dying from cancer. However, If you had chosen to stop producing SNL produced food people will die due to starvation. You were in a dead end now. Checkmate… \n\n Conclusion:\nEven though new SNL technology may had seemed to be of help to everyone, there were potential problems associated with it. Since we did not give a thought to the potential problems that the SNL technology had created,   undesirable consequences had occurred."
         android:textColor="@android:color/white"
+        android:scrollbars="vertical"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        android:layout_marginTop="150dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

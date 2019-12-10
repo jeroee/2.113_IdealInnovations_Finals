@@ -4,6 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".M1_2_2">
+    tools:context=".M1_2_2"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/m1_2_2content"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="The power outages were unbearable, the idea being in the “dark state” happening literally, and many complaints were heard over the course of your prototyping phase. You could do little but reassure the governor and people that the power shortage will be sorted out as soon as possible. Thankfully with your perseverance and determination, coupled with your expertise in the area, you managed to successfully complete your project and implemented these solar panels immediately. Citizens did not need to suffer anymore, with electricity now being supplied in a more efficient and cost-saving manner, further benefiting these citizens.
+\n\nConclusion:\nYou pressed on with fighting for what you aimed for from the start; to achieve the end goal of enabling citizens to live comfortably in the city they love. You successfully spearheaded your project and you were the talk of the town, with many people worldwide recognising you as a national hero and this led to you receiving another Nobel Prize for your unwavering efforts, single-handedly saving the city from going into an apocalyptic state.
+"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="150dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -8,9 +8,9 @@
     android:background="@android:color/black">
 
     <TextView
-        android:id="@+id/s1content"
+        android:id="@+id/s1_2content"
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="You feel that it is unwise to do so , as artificial sunlight would never be as efficient as actual sunlight in helping plants to photosynthesize, for example. You feel that the whole idea of investing money in these ideas is a waste of budget that could have been better used to further develop these cities to make it more sustainable.\n\nIn conclusion,you are unable to address the issue of limited sunlight reaching underwater, and as you are quick to dismiss the idea of artificial sunlight without finding an alternative idea promptly, this could result in increased casualty rate among the living species, moreover, you would lose your credibility of being a “smart” human, with all humanoid androids possibly being stereotyped to be dystopic in nature."
