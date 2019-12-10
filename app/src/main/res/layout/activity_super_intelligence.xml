@@ -18,15 +18,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15"
+        app:layout_constraintVertical_bias="0.05"
         app:layout_constraintHorizontal_bias="0.5"/>
 
     <TextView
         android:id="@+id/content"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
         android:text="You are one of the many humanoid androids living in the ideal city of Singapore.Developed using AI,you are smart enough to be able to sense dangers that would be detrimental to the city.You are bestowed with many functionalities, as well as being given equal rights as governors in terms of decision-making during tough times.As far as the city has been ideal thus
 far , you sense that the living conditions of this futuristic city is far from ideal, with rising sea levels impending. Given your decision-making rights, what would you do?
 "
@@ -34,10 +34,10 @@ far , you sense that the living conditions of this futuristic city is far from i
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45"
-        app:layout_constraintHorizontal_bias="0.5"/>
+        app:layout_constraintVertical_bias="0.6" />
 
     <Button
         android:id="@+id/s1"
@@ -62,6 +62,19 @@ far , you sense that the living conditions of this futuristic city is far from i
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.95" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/superintelligence" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

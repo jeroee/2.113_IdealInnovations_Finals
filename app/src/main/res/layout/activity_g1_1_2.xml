@@ -8,16 +8,32 @@
     android:background="@android:color/black">
 
     <TextView
+        android:id="@+id/g1_1_2content"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:paddingLeft="20dp"
+        android:layout_marginTop="150dp"
         android:paddingRight="20dp"
-        android:text="With the help of the SNL technology, you are able to resolve the starvation problem in the country. However, more problems came along. More and more people start developing cancer from eating the SNL produced crops as these crops contains carcinogen from prolonged exposure to SNL.You can’t stop producing food using SNL as this will bring back the starvation problem. If you continue to produce food with SNL more people will develop cancer. \n\nConclusion:\nIt is risky if we build a new technology without thinking  through the problems it could bring about thoroughly.  The areas that we have yet to explore could result in a hazardous situation. "
+        android:text="With the help of the SNL technology, you were able to resolve the starvation problem in the country. However, more problems came along. More and more people started developing cancer from eating the SNL-produced crops as these crops contained carcinogen from prolonged exposure to SNL.You could not get yourself to stop producing food using SNL as this would have brought back the starvation problem.However, the continuation of the production of food using SNL resulted in more people  developing cancer. \n\nConclusion:\nVenturing into uncharted waters was a very bold and enterprising move, however, when done without sufficient restraint and meticulous planning, it sets up the stage for failure. To minimise the risk exposure and reap the maximum benefits, decisions should be made with more foresight. Clearly, in this case, jumping the gun with the new technology did nothing to ameliorate the situation, but instead exacerbated the pitiful plight of the citizens. "
         android:textColor="@android:color/white"
         android:textSize="15dp"
-        app:layout_constraintVertical_bias="0.8"
+        android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/cancer" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

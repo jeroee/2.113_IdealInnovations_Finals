@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/s1content"
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="You believe that giving the go-ahead would be the only way to sustain the city, with your predictability abilities, you find that there is no other way to go around this.The safety of all living species in the city is in your hands, and in times like this , you have to be resilient and act fast in ensuring that casualty rate is minimized.\n\nIn conclusion,you are able to successfully fulfill your duties by doing what’s best for all living species in Singapore, as the city is able to move on to greener pastures by moving to the underworld city version of itself for sustainability."
@@ -22,5 +22,18 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        android:layout_marginTop="150dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/s1_1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

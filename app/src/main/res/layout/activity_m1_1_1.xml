@@ -4,6 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".M1_1_1">
+    tools:context=".M1_1_1"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/m1_1_1content"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="You decided to spend time trying to to add more mixtures to the cement-mix, as you had believed there must be a way that the lifespan of the cement-mix, when used to stabilise structures, to be increased. While you research had been showing signs of progress, you could not really find an ideal way to add mixtures to the current mixture. With the clock ticking on how long there was till the structures would begin cracking again, time was against you, pressure mounting on you from the governors as well. As 3 years have passed, you still were out of ideas to improve on the current mix, with this project distracting you from working on the more-efficient electromagnets you were once planning to develop. Buildings started to collapse, the city was in shambles, and you were the one everyone had put the blame on you, and you were stripped of your Nobel Prize.
+\n\nConclusion: \nYou could not live up to hype surrounding you in terms of how an excellent and rational scientist you were.Clearly you did not focus on the bigger picture(i.e  developing the electromagnets) , instead, stubbornly hanging on to a solution you had yourself deemed to be a temporary measure. Your inefficiency and irrational behaviour had many questioning how you were considered to be a reputed scientist, the eventual stripping of your Nobel Prize being the consequence of your actions.
+"       android:scrollbars="vertical"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="150dp"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/m1_1_1" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
