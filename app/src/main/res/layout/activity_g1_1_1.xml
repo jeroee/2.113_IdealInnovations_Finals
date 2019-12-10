@@ -14,9 +14,8 @@
         android:layout_marginTop="150dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="The wait is worth,several problems regarding food safety had been detected and tackled. The food produced is tested to be safe to consume. The country start mass producing food with the improved agriculture technology using SNL. The food production of Singapore had increased and the starvation problem is soon resolved. \n\nConclusion: \n
-The reason why we achieve this desirable outcome is because we knew the importance of thinking through the potential problems that the SNL technology could bring. Then we take appropriate prevention to these potential problems. This will allow us to make use of the new technology safely.
-However, we still have to pay some price sometimes. In this context, a lot of people died in the process of waiting for the safe implementation of the technology
+        android:text="The wait was worthwhile, several problems regarding food safety had been detected and tackled. The food produced was tested to be safe to consume. The country started mass producing food with the improved agriculture technology using SNL. The food production of Singapore had increased and the starvation problem was soon resolved. \n\nConclusion:\nThe reason why we had achieved this desirable outcome was because we knew the importance of thinking through the potential problems that the SNL technology brought about before taking the appropriate prevention measures to these potential problems. This  allowed us to make use of the new technology safely.
+Unfortunately, we still had to pay some price. In this context, a lot of people died in the process of waiting for the safe implementation of the technology.
 "
         android:textColor="@android:color/white"
         android:textSize="15dp"

@@ -18,6 +18,7 @@ Slowly more and more people start dying from cancer. However, If you choose to s
 \n\nConclusion:\nBuilding first and think later may cause a problem after another problem. We can choose to respond to the problems only when they appear. However, it may be beyond our capability to tackle one problem after another. "
         android:textColor="@android:color/white"
         android:textSize="15dp"
+        android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="300dp"
         android:textColor="@android:color/white"
-        android:text="Delaying of implementation of the SNL technology drained the country’s food storage and starvation is starting to be seen in people. However, the research on potential problems is yet to fully complete. Doctor Tan reported that the team is able to find a way to mass produce crops using SNL. This significantly reduces the cost of producing SNL. However Doctor Tan proposed that the team needs another 5 years to test on the SNL produced food."
+        android:text="Delaying the implementation of the SNL technology had drained the country’s food storage and starvation was noticeable among the people. However, the research on potential problems was yet to be fully completed. Doctor Tan reported that the team was potentially able to find a way to mass produce crops using SNL. This significantly could reduce the cost of producing SNL. However Doctor Tan proposed that the team needed another 5 years to test on the SNL-produced food."
         android:textSize="15dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
