@@ -30,7 +30,9 @@
         android:textColor="@android:color/white"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="Welcome users, this app which we have built raises awareness of  ethical dilemmas which arise when one builds first and think later or vice versa in the sci-fi context of the future which is set locally in Singapore in Year 2079 by speculating the possible outcomes which can occur by choosing various choices made through the app. This app makes use of digital humanities to explore this field of speculative fiction through the various roles throughout the different hierarchical roles of society."
+        android:text="Welcome! As part of the digital humanities project, our group has come up with an app which serves to raise the awareness of ethical dilemmas that arise when individuals decide to build first and think later, vice versa. Special mention to the art science museum as we drew inspiration from certain concepts and themes displayed, incorporating them as part of the story setting and background.
+The context of this immersive nonlinear story is set locally in Singapore, in the year 2079, where you will be able to explore this speculative fiction through various roles, uncovering the different outcomes based on the decisions you make!
+"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
