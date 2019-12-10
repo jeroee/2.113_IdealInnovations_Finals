@@ -39,7 +39,7 @@ The context of this immersive nonlinear story is set locally in Singapore, in th
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.325" />
+        app:layout_constraintVertical_bias="0.375" />
 
     <Button
         android:id="@+id/start"
@@ -76,6 +76,7 @@ The context of this immersive nonlinear story is set locally in Singapore, in th
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.975" />
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
