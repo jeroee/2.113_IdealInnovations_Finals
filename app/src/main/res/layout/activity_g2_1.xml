@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="With the subsidies, the price of food is controlled within an affordable price. Soon after regulating the price, another breaking news came out. More and more people start developing cancer.After thorough investigation it was found that the source of cancer is from eating the SNL produced food. The high intensity of the SNL produces too much radiation for the crops making them carcinogenic.
@@ -22,7 +22,7 @@ Slowly more and more people start dying from cancer. However, If you choose to s
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.9" />
+        android:layout_marginTop="150dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

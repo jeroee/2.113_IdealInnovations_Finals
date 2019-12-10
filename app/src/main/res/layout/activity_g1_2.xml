@@ -21,7 +21,7 @@ Slowly more and more people start dying from cancer. However, If you choose to s
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.8" />
+        android:layout_marginTop="150dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

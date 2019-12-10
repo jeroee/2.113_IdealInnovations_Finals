@@ -10,7 +10,8 @@
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="150dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="The starving problem gets worse as time passes. Just after 2 years, the situation had gone out of hand. People start dying due to hunger. People had lost trust in the government. There are protests everywhere in the country. Do you…"
@@ -20,7 +21,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.45" />
+         />
 
     <Button
         android:id="@+id/g1_1_1"
@@ -28,11 +29,12 @@
         android:layout_height="wrap_content"
         android:text="continue to wait for the result anyway"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="450dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.72" />
+         />
 
     <Button
         android:id="@+id/g1_1_2"
@@ -41,9 +43,10 @@
         android:text="Give the green light to the technology and attempt to solve the problem immediately"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="600dp"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.85" />
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

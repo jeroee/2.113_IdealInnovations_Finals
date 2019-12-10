@@ -4,6 +4,22 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".M2_2">
+    tools:context=".M2_2"
+    android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Your judgement could not have been more terrible. In spite of the chaos that ensued in the city, instead of acting fast, you decided to wait for yourself to get inspired to come up with a more ideal solution than Isthium gas, but to no avail. Your irrational and selfish behaviour had led to more chaos in the city, with increasing casualties as the days went by. As hospital prices drove up even higher, this led to unrest among the less affluent, and war between the two groups broke out, leading to more problems than ever before. Being guilty, you cowardly migrated to another country to avoid getting the blame for the state of the city. You left your city in a terrible state, the same city that had depended on you for survival.
+\n\nConclusion:\n You took up the challenge of helping out your city that was in dire need of help, but instead of following the “when the going gets tough, the tough get going” mentality, you simply left the nation hanging in terms of an effective solution to curb this problem, without displaying any aspect of leadership and perseverance you should have displayed instead.
+"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
