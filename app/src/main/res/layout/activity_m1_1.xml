@@ -8,19 +8,44 @@
     android:background="@android:color/black">
 
     <TextView
+        android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text=""
+        android:text="Another act of you acting fast to face the problem at hand. In spite of your haste, the cement-mix had been doing its job in being a temporary measure to stabilize the structures. Though it appeared to be doing stabilizing the structures, the mix was realised not to be very strong in clamping the buildings down securely in the long run, with your research indicating that it only had a 3-year lifespan in stabilizing structures efficiently. What do you do?"
         android:textColor="@android:color/white"
         android:textSize="15dp"
-        app:layout_constraintVertical_bias="0.4"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
 
+    <Button
+        android:id="@+id/m1_1_1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Research on how to increase the “lifespan” of the cement-mix"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+    <Button
+        android:id="@+id/m1_1_2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Quickly reinforce the structures with the electromagnet you were testing"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.9
+" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
