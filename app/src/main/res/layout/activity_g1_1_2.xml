@@ -14,7 +14,7 @@
         android:paddingLeft="20dp"
         android:layout_marginTop="150dp"
         android:paddingRight="20dp"
-        android:text="With the help of the SNL technology, you were able to resolve the starvation problem in the country. However, more problems came along. More and more people started developing cancer from eating the SNL-produced crops as these crops contained carcinogen from prolonged exposure to SNL.You could not get yourself to stop producing food using SNL as this would have brought back the starvation problem.However, the continuation of the production of food using SNL resulted in more people  developing cancer. \n\nConclusion 3:\nVenturing into uncharted waters was a very bold and enterprising move, however, when done without sufficient restraint and meticulous planning, it sets up the stage for failure. To minimise the risk exposure and reap the maximum benefits, decisions should be made with more foresight. Clearly, in this case, jumping the gun with the new technology did nothing to ameliorate the situation, but instead exacerbated the pitiful plight of the citizens. "
+        android:text="With the help of the SNL technology, you were able to resolve the starvation problem in the country. However, more problems came along. More and more people started developing cancer from eating the SNL-produced crops as these crops contained carcinogen from prolonged exposure to SNL.You could not get yourself to stop producing food using SNL as this would have brought back the starvation problem.However, the continuation of the production of food using SNL resulted in more people  developing cancer. \n\nConclusion:\nVenturing into uncharted waters was a very bold and enterprising move, however, when done without sufficient restraint and meticulous planning, it sets up the stage for failure. To minimise the risk exposure and reap the maximum benefits, decisions should be made with more foresight. Clearly, in this case, jumping the gun with the new technology did nothing to ameliorate the situation, but instead exacerbated the pitiful plight of the citizens. "
         android:textColor="@android:color/white"
         android:textSize="15dp"
         android:scrollbars="vertical"
@@ -24,7 +24,7 @@
         app:layout_constraintTop_toTopOf="parent" />
     <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="400dp"
+        android:layout_height="200dp"
         android:alpha="0.5"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
