@@ -14,7 +14,8 @@
         android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="Although you feel you have faced the problem, several bigger problems begin to unravel...   In a bid to swiftly eradicate this problem, you decide to give the green-light to the delivery of these crops to the households with immediate effect. The crop yield increase as a result of the new SNL technology. The problem seems to be gone. However, due to the high maintenance cost of the machine that produces SNL light, the cost of maintaining the device slowly transferred to the consumers. The price of food raised to a point that only the rich could afford the food and the poor start starving."
+        android:text="In a bid to swiftly eradicate this problem, you decided to give the green-light to the delivery of these crops to the households with immediate effect. The crop yield increased as a result of the new SNL technology. The problem seemed to have been eradicated. However, due to the high maintenance cost of the machine that produced SNL light, the cost of maintaining the device slowly transferred to the consumers. The price of food raised to a point that only the rich could afford the food and the poor started starving.
+"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
