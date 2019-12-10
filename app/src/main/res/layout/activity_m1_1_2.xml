@@ -10,7 +10,7 @@
     <TextView
         android:id="@+id/m1_1_2content"
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="The electromagnet was definitely a more effective way then the stop-gap measure( cement-mix) in stabilizing the structures, the force-fields of the magnets reinforcing these structures sturdily. Although you were still in the midst of testing out these electromagnets, the time delay created by the implementation of the stop-gap measure allowing you to have more time to progress with your main idea(electromagnet). Hence, it was about 95 percent done with testing, and the chance you took to implement it even before it was 100 percent done thankfully paid off.
@@ -18,7 +18,7 @@
 "       android:scrollbars="vertical"
         android:textColor="@android:color/white"
         android:textSize="15dp"
-        app:layout_constraintVertical_bias="0.4"
+        android:layout_marginTop="250dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

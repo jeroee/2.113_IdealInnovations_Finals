@@ -15,7 +15,7 @@ public class G1_1_1 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_g1_1_1);
 
-//        abc=findViewById(R.id.g1_1_1content);
-//        abc.setMovementMethod(new ScrollingMovementMethod());
+        abc=findViewById(R.id.g1_1_1content);
+        abc.setMovementMethod(new ScrollingMovementMethod());
     }
 }

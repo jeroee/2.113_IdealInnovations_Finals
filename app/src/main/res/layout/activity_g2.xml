@@ -11,7 +11,7 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:textColor="@android:color/white"
-        android:layout_height="wrap_content"
+        android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:text="Although you feel you have faced the problem, several bigger problems begin to unravel...   In a bid to swiftly eradicate this problem, you decide to give the green-light to the delivery of these crops to the households with immediate effect. The crop yield increase as a result of the new SNL technology. The problem seems to be gone. However, due to the high maintenance cost of the machine that produces SNL light, the cost of maintaining the device slowly transferred to the consumers. The price of food raised to a point that only the rich could afford the food and the poor start starving."
@@ -19,7 +19,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="150dp" />
+        android:layout_marginTop="130dp" />
 
     <Button
         android:id="@+id/g2.1"
@@ -31,7 +31,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="450dp" />
+        android:layout_marginTop="400dp" />
 
     <Button
         android:id="@+id/g2.2"
@@ -43,7 +43,7 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="600dp" />
+        android:layout_marginTop="500dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

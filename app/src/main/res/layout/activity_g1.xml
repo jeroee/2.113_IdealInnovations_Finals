@@ -9,7 +9,7 @@
 
     <TextView
         android:layout_width="wrap_content"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         android:textColor="@android:color/white"
         android:text="Delaying the implementation of the SNL technology had drained the country’s food storage and starvation was noticeable among the people. However, the research on potential problems was yet to be fully completed. Doctor Tan reported that the team was potentially able to find a way to mass produce crops using SNL. This significantly could reduce the cost of producing SNL. However Doctor Tan proposed that the team needed another 5 years to test on the SNL-produced food."
         android:textSize="15dp"
@@ -25,7 +25,7 @@
         android:id="@+id/g1.1"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="450dp"
+        android:layout_marginTop="350dp"
         android:text="approve the 5 year test proposal and grant research funding "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,7 @@
         android:layout_width="350dp"
         android:layout_height="wrap_content"
         android:text="implement the technology with immediate effect"
-        android:layout_marginTop="600dp"
+        android:layout_marginTop="450dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
