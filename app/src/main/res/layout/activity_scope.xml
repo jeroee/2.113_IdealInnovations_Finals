@@ -5,19 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/black"
-    tools:context=".Year2079">
+    tools:context=".Scope">
 
     <ImageView
-        android:id="@+id/fader"
-        android:layout_width="400dp"
-        android:layout_height="400dp"
+        android:id="@+id/imageView"
+        android:layout_width="600dp"
+        android:layout_height="900dp"
+        android:rotation="90"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/year2079"
-        android:alpha="1"/>
-
-
-
+        app:srcCompat="@drawable/checklist_hass" />
 </androidx.constraintlayout.widget.ConstraintLayout>

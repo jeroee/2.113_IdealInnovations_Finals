@@ -4,66 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Governor"
+    tools:context=".S2"
     android:background="@android:color/black">
 
-
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/s2content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Governor"
-        android:textColor="@android:color/white"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15"
-        app:layout_constraintHorizontal_bias="0.5"/>
-
-    <TextView
-        android:id="@+id/govcontent"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="@string/governor_context"
+        android:text="Instead of simply acting prematurely upon sensing the danger of rising sea levels, you believe that by implementing an algorithm that helps you to study the pattern of rate of increase of sea levels daily, you are better equipped to derive an ideal solution that is beneficial to everyone in the long run. However, should your sensors and hence, your algorithm prove to be faulty, this could further jeopardize the living species in the city, moreover so given the amount of time elapsed from when you first sensed the impending dangers.Do you carry on?" android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:scrollbars="vertical"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
+        app:layout_constraintVertical_bias="0.35" />
 
     <Button
-        android:id="@+id/g1"
-        android:layout_width="350dp"
+        android:id="@+id/s21"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:text="Research on the technology and tackle the potential problems before launching "
+        android:text="Carry on with waiting for yourself to come up with a good plan"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintVertical_bias="0.70" />
 
     <Button
-        android:id="@+id/g2"
-        android:layout_width="350dp"
+        android:id="@+id/s22"
+        android:layout_width="380dp"
         android:layout_height="wrap_content"
-        android:text="Implement the technology immediately and ignore the ethical issues."
+        android:text="Stop the wait and quickly build underwater cities"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93" />
-
+        app:layout_constraintVertical_bias="0.80" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

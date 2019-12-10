@@ -4,66 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Governor"
+    tools:context=".G1_1"
     android:background="@android:color/black">
 
-
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Governor"
-        android:textColor="@android:color/white"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15"
-        app:layout_constraintHorizontal_bias="0.5"/>
-
-    <TextView
-        android:id="@+id/govcontent"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="@string/governor_context"
-        android:textColor="@android:color/white"
-        android:scrollbars="vertical"
+        android:text="The starving problem gets worse as time passes. Just after 2 years, the situation had gone out of hand. People start dying due to hunger. People had lost trust in the government. There are protests everywhere in the country. Do you…"
         android:textSize="15dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        android:textColor="@android:color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
+        app:layout_constraintVertical_bias="0.45" />
 
     <Button
-        android:id="@+id/g1"
+        android:id="@+id/g1_1_1"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="Research on the technology and tackle the potential problems before launching "
+        android:text="continue to wait for the result anyway"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintVertical_bias="0.72" />
 
     <Button
-        android:id="@+id/g2"
+        android:id="@+id/g1_1_2"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="Implement the technology immediately and ignore the ethical issues."
+        android:text="Give the green light to the technology and attempt to solve the problem immediately"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93" />
-
-
+        app:layout_constraintVertical_bias="0.85" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

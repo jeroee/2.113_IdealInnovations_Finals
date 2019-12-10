@@ -8,12 +8,67 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/AppTheme">
-        <activity android:name=".SuperIntelligence"></activity>
-        <activity android:name=".MadScientist" />
-        <activity android:name=".Governor" />
-        <activity android:name=".StorySetting" />
-        <activity android:name=".Year2079">
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".M1_2_2"></activity>
+        <activity android:name=".M1_2_1" />
+        <activity android:name=".M1_1_2" />
+        <activity android:name=".M1_1_1" />
+        <activity android:name=".M2_2" />
+        <activity android:name=".M2_1" />
+        <activity android:name=".M1_2" />
+        <activity android:name=".M1_1" />
+        <activity android:name=".M2" />
+        <activity android:name=".M1" />
+        <activity android:name=".G2_2" />
+        <activity android:name=".G2_1" />
+        <activity android:name=".G1_1_2" />
+        <activity android:name=".G1_1_1" />
+        <activity android:name=".G1_2" />
+        <activity android:name=".G1_1" />
+        <activity android:name=".G2" />
+        <activity android:name=".G1" />
+        <activity
+            android:name=".Members"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Scope"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".S2_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".S2_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".S1_2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".S1_1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".S2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".S1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SuperIntelligence"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MadScientist"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Governor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StorySetting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Year2079"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StartPage"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".G1_2"
+    android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Thanks to the high productivity of SNL technology, food are readily produced to the people. However, more and more people start developing cancer.After thorough investigation it was found that the source of cancer is from eating the SNL produced food. The high intensity of the SNL produces too much radiation for the crops making them carcinogenic.
+Slowly more and more people start dying from cancer. However, If you choose to stop producing SNL produced food people will die due to starvation. You are in a dead end now. Checkmate…. \n\nConclusion:\nEven though new SNL technology may seem to be  helpful to us, there are potential problems associated with it. If we do not give a thought to the potential problems that the SNL technology might bring to us, it could lead to undesirable consequences.
+"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.8" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

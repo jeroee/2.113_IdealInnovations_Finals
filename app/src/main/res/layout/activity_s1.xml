@@ -4,66 +4,48 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Governor"
+    tools:context=".S1"
     android:background="@android:color/black">
 
-
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/s1content"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Governor"
-        android:textColor="@android:color/white"
-        android:textSize="30dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.15"
-        app:layout_constraintHorizontal_bias="0.5"/>
-
-    <TextView
-        android:id="@+id/govcontent"
-        android:layout_width="wrap_content"
-        android:layout_height="250dp"
+        android:layout_height="300dp"
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
-        android:text="@string/governor_context"
+        android:text="The idea of an underwater city would be arousing, with citizens able to go on with their daily lives, just in a different setting. This idea would prove to mitigate the problem of rising sea levels, in fact, if sea levels continue to rise, this could prove beneficial as higher-rise buildings can be constructed underwater.This would surely be ideal to many. However, one problem with this idea of building a city underwater would be that sunlight would be limited,plants now would not be able to thrive due to the scarce sunlight they receive. Animals too,that depend on these plants for survival would die.This would be a “domino-effect” as humans depend on animals for food, and hence humans too, would eventually suffer from this. However, with scientists are in the midst of developing artificial sunlight that can be used in these underwater cities to supplement plants, governors need your help,due to your “smartness” to gauge if it is practical to do so. What would you do?"
         android:textColor="@android:color/white"
-        android:scrollbars="vertical"
         android:textSize="15dp"
+        android:scrollbars="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498" />
+        app:layout_constraintVertical_bias="0.4" />
 
     <Button
-        android:id="@+id/g1"
+        android:id="@+id/s11"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="Research on the technology and tackle the potential problems before launching "
+        android:text="Go ahead with the idea"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.83" />
+        app:layout_constraintVertical_bias="0.87" />
 
     <Button
-        android:id="@+id/g2"
+        android:id="@+id/s12"
         android:layout_width="350dp"
         android:layout_height="wrap_content"
-        android:text="Implement the technology immediately and ignore the ethical issues."
+        android:text="Disapprove the idea and try to find alternative solutions"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.93" />
-
-
+        app:layout_constraintVertical_bias="0.97" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
