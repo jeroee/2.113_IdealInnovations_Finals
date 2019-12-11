@@ -15,7 +15,7 @@
         android:paddingLeft="20dp"
         android:paddingRight="20dp"
         android:scrollbars="vertical"
-        android:text="Though being prudent, time is passing and more people are being admitted to hospitals due to inhalation of these toxic gases. Some even dying. Moreover, The shortage of manpower in hospitals has led to prices of healthcare driving up rapidly. In other words, the more affluent ones have been able to successfully undergo treatments , whereas the less affluent, had been left to suffer from these toxic gases. The country is in chaos, with citizens now sensing that there’s a biased treatment towards the wealthier citizens, this coupled with the already-apparent issue health hazards associated with toxic gases in the atmosphere. Hence, you are put in a very sticky situation, what do you do?"
+        android:text="Though being prudent, time had passed and more people were being admitted to hospitals due to inhalation of these toxic gases. Some even died. Moreover, The shortage of manpower in hospitals  led to prices of healthcare driving up rapidly. In other words, the more affluent ones had been able to successfully undergo treatments , whereas the less affluent, had been left to suffer from these toxic gases. The country was in chaos, with citizens now sensing that there was biased treatment towards the wealthier citizens, this coupled with the already-apparent issue of health hazards associated with toxic gases in the atmosphere. Hence, you are put in a very sticky situation, what do you do?"
         android:textColor="@android:color/white"
 
         android:textSize="15dp"
