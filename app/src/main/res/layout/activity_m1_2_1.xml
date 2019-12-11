@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M1_2_1"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/m1_2_1content"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Upon using up the back up power, the city was functioning well, however a week later calamity struck. There was a severe thunderstorm, with a torrential downpour. With the back up power depleted and not enough power in the reserve, the electromagnet failed, resulting in the breaking down of the city’s structural integrity. With the falling debris and the pillars holding the city breaking apart, many lives were lost. That day will forever be remembered, symbolised by a monument erected at the city square. The bodies of the dead were buried there.
+\n\nConclusion:\nBeing a young and naive scientist, you did not understand what it was like to be bestowed with power, and the importance of how one should have dealt with having power, this reflected as you stood and stared at the words engraved on the monument, with you reflecting the significance of the powerful quote, “with great power comes great responsibility”.
+"
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:scrollbars="vertical"
+        android:layout_marginTop="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/m1_2_1" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Start Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

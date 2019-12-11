@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".G1_1_1"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/g1_1_1content"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="The wait was worthwhile, several problems regarding food safety had been detected and tackled. The food produced was tested to be safe to consume. The country started mass producing food with the improved agriculture technology using SNL. The food production of Singapore had increased and the starvation problem was soon resolved. \n\nConclusion:\nThe reason why we had achieved this desirable outcome was because we knew the importance of thinking through the potential problems that the SNL technology brought about before taking the appropriate prevention measures to these potential problems. This  allowed us to make use of the new technology safely.
+Unfortunately, we still had to pay some price. In this context, a lot of people died in the process of waiting for the safe implementation of the technology.
+"
+        android:textColor="@android:color/white"
+        android:scrollbars="vertical"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/food" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Start Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

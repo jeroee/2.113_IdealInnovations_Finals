@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M2"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="240dp"
+        android:layout_marginTop="85dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:scrollbars="vertical"
+        android:text="Though being prudent, time is passing and more people are being admitted to hospitals due to inhalation of these toxic gases. Some even dying. Moreover, The shortage of manpower in hospitals has led to prices of healthcare driving up rapidly. In other words, the more affluent ones have been able to successfully undergo treatments , whereas the less affluent, had been left to suffer from these toxic gases. The country is in chaos, with citizens now sensing that there’s a biased treatment towards the wealthier citizens, this coupled with the already-apparent issue health hazards associated with toxic gases in the atmosphere. Hence, you are put in a very sticky situation, what do you do?"
+        android:textColor="@android:color/white"
+
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.486" />
+
+    <Button
+        android:id="@+id/m2_1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Recommend that Isthium gas be immediately be extracted and released into the atmosphere"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="390dp" />
+
+    <Button
+        android:id="@+id/m2_2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Continue waiting in the confidence that you will definitely come up with a solution quickly"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="525dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/m2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

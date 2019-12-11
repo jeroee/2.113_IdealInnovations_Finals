@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".G2_1"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="With the subsidies, the price of food was controlled within an affordable price. Soon after regulating the price, another breaking news came out. More and more people started developing cancer.After thorough investigation it was found that the source of cancer was from eating the SNL-produced food. The high intensity of the SNL produced too much radiation, and the crops exposed to this radiation made them carcinogenic. Slowly more and more people started dying from cancer. However, If you had chosen to stop producing SNL produced food people would have died due to starvation. You were in a dead end now. Checkmate….\n\nConclusion:\nBuilding first and thinking later had caused a problem after another problem. You could have chosen to respond to the problems only when they appeared. However, it was beyond your capability to resolve all the problems simultaneously.
+"
+        android:textSize="15dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="150dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/checkmate" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Start Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

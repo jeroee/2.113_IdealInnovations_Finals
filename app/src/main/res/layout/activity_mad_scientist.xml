@@ -4,6 +4,81 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MadScientist">
+    tools:context=".MadScientist"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Scientist"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.05"
+        app:layout_constraintHorizontal_bias="0.5"/>
+
+    <TextView
+        android:id="@+id/scicontent"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="Having been the proud recipient of a Nobel Prize in the field of Chemistry and Physics at a relatively young age of 25, and being featured as a science prodigy in multiple science magazines/journals, you have been responsible for many contributions of your time. Recently, you have discovered a certain gas,known as Isthium, found in bedrock that has special properties that absorbs toxic gases and associated pollutants in the atmosphere. With your scientific knowledge, you could instantly see that massive benefits that could be reaped with such a special gas, such as preventing diseases such as Asthma and Tuberculosis by removing certain toxic gases.Especially in a country where cases of airborne diseases are increasing at an alarming rate, this call for concern could be addressed swiftly.However, your research also shows that certain side effects pertaining to the release of these gases into the atmosphere. One such effect would be that the gas has potential in cooling the temperature, resulting in erratic temperature patterns. You are in a spot where everyone has run out of ideas to save the country from toxic gases spreading, the fate of the country lies in your hands. What do you do?"
+        android:textColor="@android:color/white"
+        android:scrollbars="vertical"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="100dp"/>
+
+    <Button
+        android:id="@+id/m1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Take a leap of faith and release the gas"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="410dp" />
+
+    <Button
+        android:id="@+id/m2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Exercise some prudence and conduct further experiments before coming to a better decision"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="520dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/scientist" />
+
+
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

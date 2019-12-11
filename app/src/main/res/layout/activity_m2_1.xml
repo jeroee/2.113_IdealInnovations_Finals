@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M2_1"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/m2_1content"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="As you had finally realised the snowball effect that had been the consequence of waiting too long, you decided to recommend to the governor to give the green-light to extracting Isthium gas from the bedrock and release it into the atmosphere. After a week or so, you notice that many citizens who were diagnosed with the associated diseases due to the toxic gases were recovering gradually, due to how much cleaner the air now was, with the Isthium gas cleaning up the atmosphere. However, as once predicted, temperatures now begun to fluctuate erratically. Thankfully, you swiftly managed to develop an artificial heater that could help to control the atmospheric temperature to 25 degrees Celsius, with the heater able to cover the entirety of Singapore.
+\n\nConclusion:\nYou were resilient and faced the impending challenges bravely, your determination unwavered. Your effort was recognised by many, as you were lauded by every Singaporean; indeed like a true hero.
+"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="150dp"
+        android:textSize="15dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/m2_1" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Start Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

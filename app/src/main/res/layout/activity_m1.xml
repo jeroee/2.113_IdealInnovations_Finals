@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M1"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/m1content"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="As a fast-gap measure to prevent the spread of toxic gases, you had successfully proposed to the governors to carry out the extraction of these gases from under the bedrocks. Just like how you had researched upon, the once toxic gas-laden city that many had thought they were resigned to transformed into a clear, pristine city. Citizens who were once diagnosed with airborne-related diseases due to the toxic gases now recovered faster, without further aggravating their condition. While all seemed to be going well, another aspect of your research turned out to be true as well. Due to the properties of the gas Isthium, it resulted in more fluctuations in temperatures. This erratic climate took its toll on the city’s infrastructure, weakening the frameworks and pillars that hold the city together. The governors angrily turned to you for answers, thankfully, you were in the midst of developing an electromagnet that helps to stabilize the buildings in place."
+        android:textColor="@android:color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="110dp"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/m1_1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Implement a quick-fix solution by using cement and metals "
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="430dp"/>
+
+    <Button
+        android:id="@+id/m1_2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Request more time from the governor to test out the electromagnet first"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="530dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/m1" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

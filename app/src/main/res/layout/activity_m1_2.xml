@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".M1_2"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="There were more reports of incidents regarding the collapse of infrastructure around the city, resulting in protests from the people and escalating pressures on the government to step in and intervene. Turning a blind eye and covering up is becoming increasingly difficult. Just when tensions were at a peak, you managed to safely ensure the quick installation of electromagnets to stabilize the city’s infrastructure. However due to the massive amount of energy that is required to power the electromagnet, parts of the city have begun to experience episodes of power outages, causing great inconvenience for the citizens living in those districts. Once again, the desperate leaders sought your help for solutions. Two solutions came to mind."
+        android:textColor="@android:color/white"
+        android:scrollbars="vertical"
+        android:textSize="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="60dp" />
+
+    <Button
+        android:id="@+id/m1_2_1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="initiate the backup power supply reserves that have been harvested from solar energy in times of emergency."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="385dp" />
+
+    <Button
+        android:id="@+id/m1_2_2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="Tolerate the black out episodes, in the meantime further develop photocells in the solar panels for added energy"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/textView7"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="515dp" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/m1_2" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

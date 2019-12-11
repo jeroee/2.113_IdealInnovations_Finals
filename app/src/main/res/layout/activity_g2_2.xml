@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".G2_2"
+    android:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/g2_2content"
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_marginTop="150dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="The situation led to a downward spiral, and the city hit an all time low. Never has the nation faced such an economic crisis. Only the richest group of people could afford the crops, and this only served to further destablise the socio-economic balance of the country. With the social and economic aspects of the country in peril, you and your advisors were truly threading on thin ice...\n\nConclusion:\nIt was not long before a mass famine plagued the country. The influential citizens of the country were unsettled and wrought with worry. They used whatever remaining resources and power to escape the country. The brain drain was inevitable, and upon losing its people, the country slowly regressed into depravity and destitution."
+        android:textSize="15dp"
+        android:scrollbars="vertical"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:alpha="0.5"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        app:srcCompat="@drawable/economic_crisis" />
+
+    <Button
+        android:id="@+id/home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back to Start Page"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
